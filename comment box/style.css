@@ -1,0 +1,26 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+textarea#commentBox{
+    width: 350px;
+    height: 50px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: #EEEEEE;
+}
+
+button#commentBtn{
+    margin-top: 5px;
+    padding: 12px 25px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
