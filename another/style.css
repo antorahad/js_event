@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: blueviolet;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 15px;
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    padding: 0 15px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+li button#myBtn1{
+    color: purple;
+    background-color: lightgray;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 380px;
+}
+
+h1{
+    color: blueviolet;
+    font-size: 65px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin: 15px 0;
+}
+
+button.mybtn2{
+    padding: 13px 28px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+
+}
+
+p{
+    max-width: 970px;
+    margin: 15px 0;
+    color: #272829;
+    font-size: 16px;
+    font-weight: 600px;
+    font-family: sans-serif;
+}
